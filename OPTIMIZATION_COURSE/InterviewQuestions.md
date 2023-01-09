@@ -44,9 +44,10 @@ Suppose during optimizing our model, we reach a point where the slope or gradien
 In this case, our optimization algorithm may get stuck in the plateau region and it will slow our learning process. Vice versa on steep regions the gradient descent works very fast since the gradient is high.
 
 So, because of this uneven optimization speed at different points on the graph, weights initialization or starting point for gradient descent algorithm can be a deciding point for how our model will perform.
-* THE EQUATION OF WEIGHTS UPDATE CHANGED FRON 1 TO 2 *:
+** THE EQUATION OF WEIGHTS UPDATE CHANGED FRON 1 TO 2 **:
 * 1:
 * ![image](https://user-images.githubusercontent.com/84232181/211419314-43412fc7-0bb7-4d96-93ae-29b123f0f209.png)
+
 2:
 ![image](https://user-images.githubusercontent.com/84232181/211418589-6b729037-6da6-46dd-a878-21743f21bc6f.png)
 
