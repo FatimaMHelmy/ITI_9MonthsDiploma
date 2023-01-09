@@ -54,6 +54,10 @@ So, because of this uneven optimization speed at different points on the graph, 
 2:
 
 ![image](https://user-images.githubusercontent.com/84232181/211418589-6b729037-6da6-46dd-a878-21743f21bc6f.png)
+**!HINT**
+v(t) is exponentially decaying weighted sum, as t increases γV(t−1) becomes smaller and smaller i.e., this equation holds the farther updates by a small magnitude and recent updates by a large magnitude.
+![image](https://user-images.githubusercontent.com/84232181/211423267-a5c46aef-1b2e-450c-8fa8-6750869d6bb4.png)
+
 
 **Advantage** of Momentum Based Gradient Descent
 
