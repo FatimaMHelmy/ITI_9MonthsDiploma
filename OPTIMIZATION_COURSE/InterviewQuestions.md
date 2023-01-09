@@ -47,6 +47,7 @@ So, because of this uneven optimization speed at different points on the graph, 
 
 ** THE EQUATION OF WEIGHTS UPDATE CHANGED FRON 1 TO 2 **:
 1:
+
  ![image](https://user-images.githubusercontent.com/84232181/211419314-43412fc7-0bb7-4d96-93ae-29b123f0f209.png)
 
 2:
