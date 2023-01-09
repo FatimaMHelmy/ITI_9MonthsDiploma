@@ -37,3 +37,22 @@ Cons:
     It might be difficult to escape from local minima.
 
 ![image](https://user-images.githubusercontent.com/84232181/211414414-b2949135-580b-40ea-8e55-f041371e15fb.png)
+
+## Q2: WHY WE USE Momentum Based Gradient Descent?
+Suppose during optimizing our model, we reach a point where the slope or gradient at that point is flat or Δw → 0, in this case, our update to the parameter will be very small or there will be no update. Since w = w- ηΔw.
+
+In this case, our optimization algorithm may get stuck in the plateau region and it will slow our learning process. Vice versa on steep regions the gradient descent works very fast since the gradient is high.
+
+So, because of this uneven optimization speed at different points on the graph, weights initialization or starting point for gradient descent algorithm can be a deciding point for how our model will perform.
+![image](https://user-images.githubusercontent.com/84232181/211418589-6b729037-6da6-46dd-a878-21743f21bc6f.png)
+**Advantage** of Momentum Based Gradient Descent
+
+    It will update quickly even on plateau regions of gradient descent graph, unlike gradient descent algorithm.
+
+**The disadvantage** of Momentum Based Gradient Descent
+
+    Due to high momentum gained, it may overshoot and take time to converge
+    It oscillates in and out of the minima valley
+
+Despite these disadvantages, it still converges faster than gradient descent.
+
