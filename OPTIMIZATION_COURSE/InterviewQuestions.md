@@ -5,10 +5,11 @@ Gradient descent is a generic optimization algorithm cable for finding optimal s
 
 Batch Gradient Descent: In Batch Gradient descent the whole training data is used to minimize the loss function by taking a step towards the nearest minimum by calculating the gradient (the direction of descent)
 **** PATCH == NUM OF OBSERVATIONS
-Pros: Since the whole data set is used to calculate the gradient it will be stable and reach the minimum of the cost function without bouncing (if the learning rate is chosen cooreclty)
 
 ![image](https://user-images.githubusercontent.com/84232181/211675112-e991c8ee-4241-4137-97f6-be00b033ad36.png)
 
+
+Pros: Since the whole data set is used to calculate the gradient it will be stable and reach the minimum of the cost function without bouncing (if the learning rate is chosen cooreclty)
 
 Cons:
 
