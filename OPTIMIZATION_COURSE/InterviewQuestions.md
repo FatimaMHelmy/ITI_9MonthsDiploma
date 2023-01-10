@@ -9,7 +9,9 @@ Batch Gradient Descent: In Batch Gradient descent the whole training data is use
 ![image](https://user-images.githubusercontent.com/84232181/211675112-e991c8ee-4241-4137-97f6-be00b033ad36.png)
 
 
-Pros: Since the whole data set is used to calculate the gradient it will be stable and reach the minimum of the cost function without bouncing (if the learning rate is chosen cooreclty)
+Pros: 
+
+Since the whole data set is used to calculate the gradient it will be stable and reach the minimum of the cost function without bouncing (if the learning rate is chosen cooreclty)
 
 Cons:
 
@@ -22,6 +24,7 @@ Stochastic Gradient Descent picks up a random instance in the training data set 
 ![image](https://user-images.githubusercontent.com/84232181/211434083-53fdcc31-683a-4405-87b3-d5fa4e4d0e3b.png)
 
 **** PATCH == 1
+
 Pros:
 
     It makes the training much faster as it only works on one instance at a time.
@@ -36,6 +39,7 @@ Due to the stochastic (random) nature of this algorithm, this algorithm is much 
 At each step instead of computing the gradients on the whole data set as in the Batch Gradient Descent or using one random instance as in the Stochastic Gradient Descent, this algorithm computes the gradients on small random sets of instances called mini-batches.
 
 **** PATCH == NUM OF OBSERVATIONS / EPOCKS
+
 Pros:
 
     The algorithm's progress space is less erratic than with Stochastic Gradient Descent, especially with large mini-batches.
@@ -46,6 +50,10 @@ Cons:
     It might be difficult to escape from local minima.
 
 ![image](https://user-images.githubusercontent.com/84232181/211414414-b2949135-580b-40ea-8e55-f041371e15fb.png)
+
+
+![image](https://user-images.githubusercontent.com/84232181/211675880-0ea35c66-05dd-4844-a596-cd5b1b4ac5c5.png)
+
 
 ## Q2: WHY WE USE Momentum Based Gradient Descent?
 Suppose during optimizing our model, we reach a point where the slope or gradient at that point is flat or Δw → 0, in this case, our update to the parameter will be very small or there will be no update. Since w = w- ηΔw.
