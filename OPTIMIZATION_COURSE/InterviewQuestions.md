@@ -40,6 +40,9 @@ At each step instead of computing the gradients on the whole data set as in the 
 
 **** PATCH == NUM OF OBSERVATIONS / EPOCKS
 
+![image](https://user-images.githubusercontent.com/84232181/211676738-e36baf69-b6fb-400e-ae76-3d2df2f808d1.png)
+
+
 Pros:
 
     The algorithm's progress space is less erratic than with Stochastic Gradient Descent, especially with large mini-batches.
@@ -52,7 +55,6 @@ Cons:
 ![image](https://user-images.githubusercontent.com/84232181/211414414-b2949135-580b-40ea-8e55-f041371e15fb.png)
 
 
-![image](https://user-images.githubusercontent.com/84232181/211675880-0ea35c66-05dd-4844-a596-cd5b1b4ac5c5.png)
 
 
 ## Q2: WHY WE USE Momentum Based Gradient Descent?
