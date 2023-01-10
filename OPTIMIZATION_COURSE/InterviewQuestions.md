@@ -11,10 +11,12 @@ Cons:
 
 Since batch gradient descent uses all the training set to compute the gradient at every step, it will be very slow especially if the size of the training data is large.
 
-###Stochastic Gradient Descent:
+### Stochastic Gradient Descent:
 
 Stochastic Gradient Descent picks up a random instance in the training data set at every step and computes the gradient-based only on that single instance.
+
 ![image](https://user-images.githubusercontent.com/84232181/211434083-53fdcc31-683a-4405-87b3-d5fa4e4d0e3b.png)
+
 
 Pros:
 
