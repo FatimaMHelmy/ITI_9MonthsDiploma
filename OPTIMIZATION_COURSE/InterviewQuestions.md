@@ -7,6 +7,9 @@ Batch Gradient Descent: In Batch Gradient descent the whole training data is use
 **** PATCH == NUM OF OBSERVATIONS
 Pros: Since the whole data set is used to calculate the gradient it will be stable and reach the minimum of the cost function without bouncing (if the learning rate is chosen cooreclty)
 
+![image](https://user-images.githubusercontent.com/84232181/211675112-e991c8ee-4241-4137-97f6-be00b033ad36.png)
+
+
 Cons:
 
 Since batch gradient descent uses all the training set to compute the gradient at every step, it will be very slow especially if the size of the training data is large.
