@@ -4,7 +4,7 @@
 Gradient descent is a generic optimization algorithm cable for finding optimal solutions to a wide range of problems. The general idea of gradient descent is to tweak parameters iteratively in order to minimize a cost function.
 
 Batch Gradient Descent: In Batch Gradient descent the whole training data is used to minimize the loss function by taking a step towards the nearest minimum by calculating the gradient (the direction of descent)
-
+**** PATCH == NUM OF OBSERVATIONS
 Pros: Since the whole data set is used to calculate the gradient it will be stable and reach the minimum of the cost function without bouncing (if the learning rate is chosen cooreclty)
 
 Cons:
@@ -17,7 +17,7 @@ Stochastic Gradient Descent picks up a random instance in the training data set 
 
 ![image](https://user-images.githubusercontent.com/84232181/211434083-53fdcc31-683a-4405-87b3-d5fa4e4d0e3b.png)
 
-
+**** PATCH == 1
 Pros:
 
     It makes the training much faster as it only works on one instance at a time.
@@ -31,6 +31,7 @@ Due to the stochastic (random) nature of this algorithm, this algorithm is much 
 
 At each step instead of computing the gradients on the whole data set as in the Batch Gradient Descent or using one random instance as in the Stochastic Gradient Descent, this algorithm computes the gradients on small random sets of instances called mini-batches.
 
+**** PATCH == NUM OF OBSERVATIONS / EPOCKS
 Pros:
 
     The algorithm's progress space is less erratic than with Stochastic Gradient Descent, especially with large mini-batches.
