@@ -27,8 +27,8 @@ Stochastic Gradient Descent picks up a random instance in the training data set 
 
 Pros:
 
-    It makes the training much faster as it only works on one instance at a time.
-    It become easier to train large datasets
+    1:It makes the training much faster as it only works on one instance at a time.
+    2:It become easier to train large datasets "at good adjustment"
 
 Cons:
 
@@ -85,8 +85,10 @@ So, because of this uneven optimization speed at different points on the graph, 
 
 **The disadvantage** of Momentum Based Gradient Descent
 
-    Due to high momentum gained, it may overshoot and take time to converge
-    It oscillates in and out of the minima valley
+    1:Due to high momentum gained, it may overshoot and take time to converge
+    2:It oscillates in and out of the minima valley
+    **To overcome this issue Nesterov accelerated GD (NAG) is used**    
+
 
 Despite these disadvantages, it still converges faster than gradient descent.
 
