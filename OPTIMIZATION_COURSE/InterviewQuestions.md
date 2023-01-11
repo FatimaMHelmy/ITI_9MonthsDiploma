@@ -87,7 +87,7 @@ So, because of this uneven optimization speed at different points on the graph, 
 
     1:Due to high momentum gained, it may overshoot and take time to converge
     2:It oscillates in and out of the minima valley
-    *** To overcome this issue Nesterov accelerated GD (NAG) is used ***    
+    *** To overcome this issue Nesterov accelerated GD (NAG) is used ***
 
 
 Despite these disadvantages, it still converges faster than gradient descent.
