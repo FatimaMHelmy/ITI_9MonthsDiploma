@@ -1,3 +1,11 @@
+
+
+### TASK 5
+**The aim of this **
+
+Hands on with PANDAS  library by answering some of questions applying at italy-covid-daywise.csv 
+
+
 ###  TASK 6 
 **The aim of this**
 Task is to find out which are the most relevant features that students consider
